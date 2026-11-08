@@ -144,7 +144,11 @@ const dictionaries = {
   },
 } as const;
 
-export type Dictionary = (typeof dictionaries)["en"];
+type DeepStringify<T> = {
+  [K in keyof T]: T[K] extends string ? string : DeepStringify<T[K]>;
+};
+
+export type Dictionary = DeepStringify<(typeof dictionaries)["en"]>;
 
 type LanguageContextValue = {
   locale: Locale;
