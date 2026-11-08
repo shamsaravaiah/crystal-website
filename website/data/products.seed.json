@@ -1,0 +1,264 @@
+{
+  "products": [
+    {
+      "id": "c84c91fb-fe9b-40c5-8690-2f520406eca0",
+      "name": "Lapis Lazuli & Silver",
+      "slug": "lapis-lazuli-silver",
+      "description": "Bring your style to life with striking Lapis Lazuli or choose the timeless beauty of silver. Hand-selected pieces that blend deep celestial blue with refined metalwork.",
+      "category": "Jewelry",
+      "price": null,
+      "currency": "EUR",
+      "images": [
+        "/products/2025-03-15_23-43-12_UTC_1.jpg",
+        "/products/2025-03-15_23-43-12_UTC_2.jpg",
+        "/products/2025-03-15_23-43-12_UTC_3.jpg",
+        "/products/2025-03-15_23-43-12_UTC_4.jpg"
+      ],
+      "featured": 1,
+      "created_at": "2026-11-08T20:33:27.591Z",
+      "updated_at": "2026-11-08T20:33:27.591Z"
+    },
+    {
+      "id": "fc611e23-64df-4baa-8bc6-a2323090856c",
+      "name": "Emerald Radiance",
+      "slug": "emerald-radiance",
+      "description": "Emerald does more than sparkle — it radiates positive energy and calm. A luminous green gemstone chosen for its clarity and serene presence.",
+      "category": "Gemstones",
+      "price": null,
+      "currency": "EUR",
+      "images": [
+        "/products/2025-04-03_14-11-21_UTC.jpg"
+      ],
+      "featured": 1,
+      "created_at": "2026-11-08T20:33:27.591Z",
+      "updated_at": "2026-11-08T20:33:27.591Z"
+    },
+    {
+      "id": "d32f3af3-9826-4fd6-8045-f08d6a53353e",
+      "name": "Afghan Emerald Set — Panjshir",
+      "slug": "afghan-emerald-set-panjshir",
+      "description": "A rare set featuring Afghan emerald from Panjshir — one of the world's most celebrated sources of deep green emerald of fine quality.",
+      "category": "Gemstones",
+      "price": null,
+      "currency": "EUR",
+      "images": [
+        "/products/2025-12-27_22-02-04_UTC_1.jpg",
+        "/products/2025-12-27_22-02-04_UTC_2.jpg",
+        "/products/2025-12-27_22-02-04_UTC_3.jpg"
+      ],
+      "featured": 1,
+      "created_at": "2026-11-08T20:33:27.591Z",
+      "updated_at": "2026-11-08T20:33:27.591Z"
+    },
+    {
+      "id": "3c8603e0-2242-425e-8be8-013ad00a483f",
+      "name": "Turquoise Stories",
+      "slug": "turquoise-stories",
+      "description": "Every turquoise tells its own story. Known as a stone of protection and calm, these pieces carry soft sky-blue tones and unique natural patterning.",
+      "category": "Gemstones",
+      "price": null,
+      "currency": "EUR",
+      "images": [
+        "/products/2025-12-27_22-46-48_UTC_1.jpg",
+        "/products/2025-12-27_22-46-48_UTC_2.jpg",
+        "/products/2025-12-27_22-46-48_UTC_3.jpg"
+      ],
+      "featured": 1,
+      "created_at": "2026-11-08T20:33:27.591Z",
+      "updated_at": "2026-11-08T20:33:27.591Z"
+    },
+    {
+      "id": "141f9873-eaaf-4102-a63b-b64f54e45b9d",
+      "name": "Apatite",
+      "slug": "apatite",
+      "description": "Natural beauty from the earth. Apatite is associated with energy, motivation, and inspiration — a stone that keeps drawing the eye.",
+      "category": "Crystals",
+      "price": null,
+      "currency": "EUR",
+      "images": [
+        "/products/2026-08-20_19-57-12_UTC.jpg"
+      ],
+      "featured": 0,
+      "created_at": "2026-11-08T20:33:27.591Z",
+      "updated_at": "2026-11-08T20:33:27.591Z"
+    },
+    {
+      "id": "7fe15fda-27a9-4640-9004-af4b4cd84799",
+      "name": "Celestine",
+      "slug": "celestine",
+      "description": "Calm and beauty in one stone. Celestine is known for harmony and a relaxed presence, with a distinctive soft luminous character.",
+      "category": "Crystals",
+      "price": null,
+      "currency": "EUR",
+      "images": [
+        "/products/2026-08-20_20-03-20_UTC.jpg"
+      ],
+      "featured": 1,
+      "created_at": "2026-11-08T20:33:27.591Z",
+      "updated_at": "2026-11-08T20:33:27.591Z"
+    },
+    {
+      "id": "b475a6f3-8b2a-43fd-a1fa-dcc0c7f7b1e6",
+      "name": "925 Silver Rings",
+      "slug": "925-silver-rings",
+      "description": "925 sterling silver rings — each with its own character. Refined everyday pieces crafted to last and designed to feel personal.",
+      "category": "Jewelry",
+      "price": null,
+      "currency": "EUR",
+      "images": [
+        "/products/2026-08-22_13-34-51_UTC_1.jpg",
+        "/products/2026-08-22_13-34-51_UTC_2.jpg",
+        "/products/2026-08-22_13-34-51_UTC_3.jpg"
+      ],
+      "featured": 1,
+      "created_at": "2026-11-08T20:33:27.591Z",
+      "updated_at": "2026-11-08T20:33:27.591Z"
+    },
+    {
+      "id": "763d98ae-2d86-4074-ad37-faa661b653c9",
+      "name": "Panjshir Emerald",
+      "slug": "panjshir-emerald",
+      "description": "Emerald from Panjshir, Afghanistan — a world-famous locality known for deep green stones of excellent quality. Associated with the heart, love, and wisdom.",
+      "category": "Gemstones",
+      "price": null,
+      "currency": "EUR",
+      "images": [
+        "/products/2026-08-24_17-31-33_UTC.jpg"
+      ],
+      "featured": 0,
+      "created_at": "2026-11-08T20:33:27.591Z",
+      "updated_at": "2026-11-08T20:33:27.591Z"
+    },
+    {
+      "id": "104dd981-daa2-4499-a7ea-4f182cc6b96e",
+      "name": "Druzy Pyrite — Peru",
+      "slug": "druzy-pyrite-peru",
+      "description": "Druzy pyrite from Peru formed of countless tiny crystals that create a sparkling surface. Associated with strength, confidence, protection, and abundance.",
+      "category": "Crystals",
+      "price": null,
+      "currency": "EUR",
+      "images": [
+        "/products/2026-08-28_16-58-36_UTC.jpg"
+      ],
+      "featured": 1,
+      "created_at": "2026-11-08T20:33:27.591Z",
+      "updated_at": "2026-11-08T20:33:27.591Z"
+    },
+    {
+      "id": "a26c8b18-e424-4546-8b0d-084b6c51dde3",
+      "name": "Cabochon Collection",
+      "slug": "cabochon-collection",
+      "description": "Cabochons in a spectrum of colors and patterns — perfect for creating unique rings, pendants, and one-of-a-kind jewelry designs.",
+      "category": "Gemstones",
+      "price": null,
+      "currency": "EUR",
+      "images": [
+        "/products/2026-09-05_18-41-53_UTC_1.jpg",
+        "/products/2026-09-05_18-41-53_UTC_2.jpg",
+        "/products/2026-09-05_18-41-53_UTC_3.jpg",
+        "/products/2026-09-05_18-41-53_UTC_4.jpg",
+        "/products/2026-09-05_18-41-53_UTC_5.jpg",
+        "/products/2026-09-05_18-41-53_UTC_6.jpg",
+        "/products/2026-09-05_18-41-53_UTC_7.jpg",
+        "/products/2026-09-05_18-41-53_UTC_8.jpg"
+      ],
+      "featured": 1,
+      "created_at": "2026-11-08T20:33:27.591Z",
+      "updated_at": "2026-11-08T20:33:27.591Z"
+    },
+    {
+      "id": "98d27a96-9fb0-4455-9229-aa1cb7c59c9e",
+      "name": "Tiger Eye",
+      "slug": "tiger-eye",
+      "description": "With its warm golden banding, tiger eye is known for strength, balance, and focus — a grounded stone with natural chatoyancy.",
+      "category": "Crystals",
+      "price": null,
+      "currency": "EUR",
+      "images": [
+        "/products/2026-09-16_09-23-37_UTC_1.jpg",
+        "/products/2026-09-16_09-23-37_UTC_2.jpg",
+        "/products/2026-09-16_09-23-37_UTC_3.jpg"
+      ],
+      "featured": 0,
+      "created_at": "2026-11-08T20:33:27.591Z",
+      "updated_at": "2026-11-08T20:33:27.591Z"
+    },
+    {
+      "id": "adbae7bc-6a15-4632-9891-c1b36b1407f0",
+      "name": "Afghan Lapis Lazuli & Turquoise Rings",
+      "slug": "afghan-lapis-lazuli-turquoise-rings",
+      "description": "Beautiful Afghan lapis lazuli and turquoise set into unique rings — deep blues and soft turquoise tones in wearable art.",
+      "category": "Jewelry",
+      "price": null,
+      "currency": "EUR",
+      "images": [
+        "/products/2026-09-16_10-04-46_UTC_1.jpg",
+        "/products/2026-09-16_10-04-46_UTC_2.jpg"
+      ],
+      "featured": 1,
+      "created_at": "2026-11-08T20:33:27.591Z",
+      "updated_at": "2026-11-08T20:33:27.591Z"
+    },
+    {
+      "id": "22b1ac64-9770-499a-b826-c8f8dcf818a9",
+      "name": "Amethyst",
+      "slug": "amethyst",
+      "description": "Beyond its violet beauty, amethyst is known for its calming and protective qualities — a classic crystal with soft luminous depth.",
+      "category": "Crystals",
+      "price": null,
+      "currency": "EUR",
+      "images": [
+        "/products/2026-09-19_12-03-45_UTC.jpg"
+      ],
+      "featured": 0,
+      "created_at": "2026-11-08T20:33:27.591Z",
+      "updated_at": "2026-11-08T20:33:27.591Z"
+    },
+    {
+      "id": "5ca3dc95-1b77-45b0-a5f0-b331d98b5ad7",
+      "name": "Crystal Selection",
+      "slug": "crystal-selection",
+      "description": "A curated selection of natural stones — choose the piece that speaks to you.",
+      "category": "Crystals",
+      "price": null,
+      "currency": "EUR",
+      "images": [
+        "/products/2026-09-30_06-44-53_UTC_1.jpg",
+        "/products/2026-09-30_06-44-53_UTC_2.jpg"
+      ],
+      "featured": 0,
+      "created_at": "2026-11-08T20:33:27.591Z",
+      "updated_at": "2026-11-08T20:33:27.591Z"
+    },
+    {
+      "id": "184594cb-2a6e-45c3-a027-48fea790244f",
+      "name": "Ammonite — Madagascar",
+      "slug": "ammonite-madagascar",
+      "description": "Ammonite from Madagascar — a remarkable fossil from a world millions of years ago, with spiral form and mineralized beauty.",
+      "category": "Fossils",
+      "price": null,
+      "currency": "EUR",
+      "images": [
+        "/products/2026-10-10_19-11-48_UTC.jpg"
+      ],
+      "featured": 1,
+      "created_at": "2026-11-08T20:33:27.591Z",
+      "updated_at": "2026-11-08T20:33:27.591Z"
+    },
+    {
+      "id": "24c20ad4-c1e2-4392-b342-ec9fa139f604",
+      "name": "Gemstone Trees",
+      "slug": "gemstone-trees",
+      "description": "Beautiful gemstone trees — striking accents for your interior and thoughtful gifts that bring color and crystal energy into a space.",
+      "category": "Decor",
+      "price": null,
+      "currency": "EUR",
+      "images": [
+        "/products/2026-10-27_14-13-30_UTC.jpg"
+      ],
+      "featured": 0,
+      "created_at": "2026-11-08T20:33:27.591Z",
+      "updated_at": "2026-11-08T20:33:27.591Z"
+    }
+  ]
+}

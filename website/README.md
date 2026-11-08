@@ -13,6 +13,14 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
+### Render deploy
+
+- **Root Directory:** `website`
+- **Build Command:** `npm install --include=dev && npm run build`
+- **Start Command:** `npm start`
+
+Product data uses a JSON file store (`data/products.seed.json`) — no native SQLite.
+
 ## Admin
 
 - URL: [http://localhost:3000/admin](http://localhost:3000/admin)

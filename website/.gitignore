@@ -34,7 +34,8 @@ yarn-error.log*
 .env*
 
 # local data & uploads
-/data
+/data/*
+!/data/products.seed.json
 /public/uploads/*
 !/public/uploads/.gitkeep
 

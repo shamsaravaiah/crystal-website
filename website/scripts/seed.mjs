@@ -1,4 +1,3 @@
-import Database from "better-sqlite3";
 import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
@@ -7,28 +6,10 @@ import { randomUUID } from "crypto";
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const root = path.join(__dirname, "..");
 const dataDir = path.join(root, "data");
-const dbPath = path.join(dataDir, "store.db");
+const storePath = path.join(dataDir, "products.json");
+const seedPath = path.join(dataDir, "products.seed.json");
 
 if (!fs.existsSync(dataDir)) fs.mkdirSync(dataDir, { recursive: true });
-
-const db = new Database(dbPath);
-db.exec(`
-  CREATE TABLE IF NOT EXISTS products (
-    id TEXT PRIMARY KEY,
-    name TEXT NOT NULL,
-    slug TEXT NOT NULL UNIQUE,
-    description TEXT NOT NULL DEFAULT '',
-    category TEXT NOT NULL DEFAULT 'Crystals',
-    price REAL,
-    currency TEXT NOT NULL DEFAULT 'EUR',
-    images TEXT NOT NULL DEFAULT '[]',
-    featured INTEGER NOT NULL DEFAULT 0,
-    created_at TEXT NOT NULL,
-    updated_at TEXT NOT NULL
-  );
-`);
-
-db.prepare("DELETE FROM products").run();
 
 function slugify(text) {
   return text
@@ -40,7 +21,7 @@ function slugify(text) {
     .slice(0, 80);
 }
 
-const products = [
+const catalog = [
   {
     name: "Lapis Lazuli & Silver",
     category: "Jewelry",
@@ -207,28 +188,25 @@ const products = [
   },
 ];
 
-const insert = db.prepare(`
-  INSERT INTO products (id, name, slug, description, category, price, currency, images, featured, created_at, updated_at)
-  VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-`);
-
 const now = new Date().toISOString();
-for (const p of products) {
-  const id = randomUUID();
-  insert.run(
-    id,
-    p.name,
-    slugify(p.name),
-    p.description,
-    p.category,
-    null,
-    "EUR",
-    JSON.stringify(p.images),
-    p.featured ? 1 : 0,
-    now,
-    now,
-  );
-}
+const products = catalog.map((p) => ({
+  id: randomUUID(),
+  name: p.name,
+  slug: slugify(p.name),
+  description: p.description,
+  category: p.category,
+  price: null,
+  currency: "EUR",
+  images: p.images,
+  featured: p.featured ? 1 : 0,
+  created_at: now,
+  updated_at: now,
+}));
 
-console.log(`Seeded ${products.length} products into ${dbPath}`);
-db.close();
+const payload = JSON.stringify({ products }, null, 2);
+fs.writeFileSync(seedPath, payload);
+fs.writeFileSync(storePath, payload);
+
+console.log(`Seeded ${products.length} products into:`);
+console.log(`  ${seedPath}`);
+console.log(`  ${storePath}`);
