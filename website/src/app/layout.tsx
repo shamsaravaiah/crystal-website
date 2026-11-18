@@ -22,6 +22,11 @@ export const metadata: Metadata = {
   },
   description:
     "A curated collection of crystals, gemstones, and fine jewelry. Discover rare stones and handcrafted pieces from UNIQUE ALL IN ONE.",
+  icons: {
+    icon: [{ url: "/icon.png", type: "image/png" }],
+    apple: [{ url: "/icon.png" }],
+    shortcut: ["/icon.png"],
+  },
   openGraph: {
     title: "UNIQUE ALL IN ONE",
     description: "Crystals, gemstones, and fine jewelry — curated with care.",
