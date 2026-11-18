@@ -45,14 +45,18 @@ const dictionaries = {
     },
     about: {
       eyebrow: "About",
+      founder: "Founded by Farida Chamto",
       p1: "We curate crystals, gemstones, fossils, and fine silver jewelry for collectors who appreciate natural form and quiet luxury. From Afghan lapis and Panjshir emerald to druzy pyrite and 925 silver rings — every piece is chosen with intention.",
       p2: "Follow the atelier on Instagram for new arrivals, stone stories, and one-of-a-kind finds.",
     },
     contact: {
       eyebrow: "Contact",
       title: "Inquire about a piece",
-      body: "For availability, custom requests, or questions about a stone — message us on Instagram. We respond with care to every inquiry.",
+      body: "For availability, custom requests, or questions about a stone — reach out by phone, email, or Instagram. We respond with care to every inquiry.",
       cta: "Message on Instagram",
+      phone: "Phone",
+      email: "Email",
+      instagram: "Instagram",
     },
     product: {
       back: "← Back to collection",
@@ -110,14 +114,18 @@ const dictionaries = {
     },
     about: {
       eyebrow: "Over ons",
+      founder: "Opgericht door Farida Chamto",
       p1: "Wij selecteren kristallen, edelstenen, fossielen en fijn zilveren sieraden voor verzamelaars die natuurlijke vorm en stille luxe waarderen. Van Afghaanse lapis en Panjshir-smaragd tot druzy pyriet en 925 zilveren ringen — elk stuk is met zorg gekozen.",
       p2: "Volg het atelier op Instagram voor nieuwe binnenkomsten, steenverhalen en unieke vondsten.",
     },
     contact: {
       eyebrow: "Contact",
       title: "Vraag naar een stuk",
-      body: "Voor beschikbaarheid, maatwerk of vragen over een steen — stuur ons een bericht op Instagram. We reageren zorgvuldig op elke aanvraag.",
+      body: "Voor beschikbaarheid, maatwerk of vragen over een steen — bel, mail of stuur een bericht via Instagram. We reageren zorgvuldig op elke aanvraag.",
       cta: "Bericht via Instagram",
+      phone: "Telefoon",
+      email: "E-mail",
+      instagram: "Instagram",
     },
     product: {
       back: "← Terug naar collectie",

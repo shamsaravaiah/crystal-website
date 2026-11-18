@@ -16,6 +16,9 @@ export default function AboutContent() {
           <h1 className="font-display text-5xl text-ink md:text-6xl">
             UNIQUE ALL IN ONE
           </h1>
+          <p className="mt-3 text-[0.75rem] uppercase tracking-[0.22em] text-gold-deep">
+            {t.about.founder}
+          </p>
           <div className="my-6 flex w-40 items-center gap-3">
             <span className="facet-line flex-1" />
             <span className="text-gold">✦</span>

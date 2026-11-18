@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useLanguage } from "@/lib/i18n";
+import { SITE } from "@/lib/site";
 
 export default function Footer() {
   const { t } = useLanguage();
@@ -29,6 +30,7 @@ export default function Footer() {
           <p className="max-w-xs text-sm leading-relaxed text-ink-soft">
             {t.footer.blurb}
           </p>
+          <p className="mt-3 text-sm text-ink">{SITE.owner}</p>
         </div>
 
         <div>
@@ -55,14 +57,22 @@ export default function Footer() {
           <p className="mb-4 text-[0.7rem] uppercase tracking-[0.2em] text-stone">
             {t.footer.connect}
           </p>
-          <a
-            href="https://www.instagram.com/unique.all.in.one/"
-            target="_blank"
-            rel="noreferrer"
-            className="text-sm text-ink-soft hover:text-ink"
-          >
-            @unique.all.in.one
-          </a>
+          <div className="flex flex-col gap-2 text-sm text-ink-soft">
+            <a href={SITE.phoneHref} className="hover:text-ink">
+              {SITE.phoneDisplay}
+            </a>
+            <a href={SITE.emailHref} className="hover:text-ink">
+              {SITE.email}
+            </a>
+            <a
+              href={SITE.instagramUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-ink"
+            >
+              {SITE.instagramHandle}
+            </a>
+          </div>
           <p className="mt-6 text-xs text-stone">
             © {new Date().getFullYear()} UNIQUE ALL IN ONE
           </p>

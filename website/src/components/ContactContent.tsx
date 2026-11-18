@@ -1,6 +1,7 @@
 "use client";
 
 import { useLanguage } from "@/lib/i18n";
+import { SITE } from "@/lib/site";
 
 export default function ContactContent() {
   const { t } = useLanguage();
@@ -19,9 +20,45 @@ export default function ContactContent() {
           <span className="text-gold">✦</span>
           <span className="facet-line flex-1" />
         </div>
-        <p className="text-ink-soft leading-relaxed">{t.contact.body}</p>
+        <p className="font-display text-2xl tracking-wide text-ink">
+          {SITE.owner}
+        </p>
+        <p className="mt-4 text-ink-soft leading-relaxed">{t.contact.body}</p>
+
+        <div className="mx-auto mt-10 max-w-md space-y-4 text-left">
+          <a
+            href={SITE.phoneHref}
+            className="flex items-center justify-between border border-[var(--line)] bg-cream/50 px-5 py-4 transition hover:border-gold"
+          >
+            <span className="text-[0.68rem] uppercase tracking-[0.18em] text-stone">
+              {t.contact.phone}
+            </span>
+            <span className="text-ink">{SITE.phoneDisplay}</span>
+          </a>
+          <a
+            href={SITE.emailHref}
+            className="flex items-center justify-between border border-[var(--line)] bg-cream/50 px-5 py-4 transition hover:border-gold"
+          >
+            <span className="text-[0.68rem] uppercase tracking-[0.18em] text-stone">
+              {t.contact.email}
+            </span>
+            <span className="text-ink">{SITE.email}</span>
+          </a>
+          <a
+            href={SITE.instagramUrl}
+            target="_blank"
+            rel="noreferrer"
+            className="flex items-center justify-between border border-[var(--line)] bg-cream/50 px-5 py-4 transition hover:border-gold"
+          >
+            <span className="text-[0.68rem] uppercase tracking-[0.18em] text-stone">
+              {t.contact.instagram}
+            </span>
+            <span className="text-ink">{SITE.instagramHandle}</span>
+          </a>
+        </div>
+
         <a
-          href="https://www.instagram.com/unique.all.in.one/"
+          href={SITE.instagramUrl}
           target="_blank"
           rel="noreferrer"
           className="btn-primary mt-10"
